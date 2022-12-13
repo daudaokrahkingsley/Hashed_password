@@ -25,6 +25,7 @@
 		$email = $_REQUEST['email'];
 		$password = $_REQUEST['password'];
                 
+		
 		$hashed_password = password_hash($password, PASSWORD_DEFAULT);
    		
 		
